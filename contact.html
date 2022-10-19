@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News</title>
-
+    <title>Contact</title>
+    <script src="https://kit.fontawesome.com/eae8c45084.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -24,8 +24,32 @@
         </nav>
         <a class="cta" href="contact.html"><button>Contact</button></a>
     </header>
-    <section>
 
+    <section class="contact-section">
+        <form class="contact-form">
+            <div class="input-group">
+                <input type="text" id="name" required>
+                <label for="name"><i class="fa-solid fa-user"></i> Your name</label>
+
+            </div>
+            <div class="input-group">
+                <input type="text" id="number" required>
+                <label for="number"><i class="fas fa-phone-square-alt"></i> Phone No.</label>
+
+            </div>
+            <div class="input-group">
+                <input type="text" id="email" required>
+                <label for="email"><i class="fas fa-envelope"></i> Your Email</label>
+
+            </div>
+            <div class="input-group">
+                <textarea id="message" rows="8" required></textarea>
+                <label for="message"><i class="fas fa-comments"></i> Your message</label>
+
+            </div>
+            <button type="submit"> Submit</button>
+
+        </form>
     </section>
 
     <footer class="footer-container">
